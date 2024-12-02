@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 /* header della pagina */
 .container{
@@ -108,7 +108,7 @@ main, footer{
 
 .quadrato1, .quadrato2, .quadrato3, .container2{
     width: 100%;
-    height: 700px;
+    height: 600px;
     display: flex;
                 
 }
@@ -171,7 +171,7 @@ main, footer{
 
 /* informazione secondarie footer */
 
-.container2{
+.container2, .container3{
     background-color: #222628;
 }
 .container2 div{
@@ -198,6 +198,25 @@ background-color: #222628;
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    
+}
+/* ultimaparte del footer  */
+.container3{
+    width: 100%;
+    height: 100px;
+            
+}
+.container3 .barra{
+    display: flex;
+    justify-content: space-between;
+
+}
+.barra > button{
+    font-size:20px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color:#7289DA
     
 }
 
