@@ -123,7 +123,7 @@ main, footer{
     
 
 }
-/* informazioni  */ 
+ 
 .quadrato1, .quadrato2, .quadrato3 {
     margin-top: 50px;
     padding: 50px 0;
@@ -162,19 +162,21 @@ main, footer{
 }
 .quadrato4 > button{
     font-size:20px;
-    padding: 5px;
-    border-radius: 25px;
+    padding: 10px;
+    border-radius: 30px;
     margin: 30px;
+    background-color:#7289DA ;
 }
 
 
 /* informazione secondarie footer */
 
+.container2{
+    background-color: #222628;
+}
 .container2 div{
 flex-basis: calc(100% / 5); 
-    
-    
-    background-color: #222628;
+background-color: #222628;
 }
 .container2 div:first-child{
     flex-basis: 25%; 
@@ -192,8 +194,10 @@ flex-basis: calc(100% / 5);
     color: white;
 }
 .sec1, .sec2, .sec3, .sec4, .sec5{
+    height: 600px;
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     
 }
+
